@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>الريفي - منتجات طبيعية</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #fefae0;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+    }
+    header {
+      background-color: #606c38;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 5px solid #bc6c25;
+    }
+    header h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+    header p {
+      font-size: 20px;
+      margin: 10px 0 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .product {
+      background: white;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+      transition: transform 0.3s;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 15px;
+      margin-bottom: 15px;
+    }
+    .product h2 {
+      color: #bc6c25;
+      margin: 0 0 10px;
+    }
+    .product p {
+      font-size: 16px;
+      color: #333;
+      line-height: 1.6;
+    }
+    .price-cart {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .price {
+      color: #606c38;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .button {
+      background-color: #dda15e;
+      color: white;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #bc6c25;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: #606c38;
+      background-color: #f0efeb;
+      margin-top: 40px;
+    }
+    a.whatsapp {
+      display: inline-block;
+      background-color: #25d366;
+      color: white;
+      padding: 10px 25px;
+      margin-top: 15px;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    a.whatsapp:hover {
+      background-color: #128c7e;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>الريفي</h1>
+    <p>منتجات بلدي طبيعية 100%</p>
+  </header>
+
+  <div class="container">
+    <div class="product">
+      <img src="https://via.placeholder.com/700x400.png?text=زبدة+جاموسي" alt="زبدة بلدي جاموسي">
+      <h2>زبدة بلدي جاموسي</h2>
+      <p>زبدة طبيعية 100% من اللبن الجاموسي. بدون أي إضافات. طعم أصيل وجودة ممتازة.</p>
+      <div class="price-cart">
+        <span class="price">250 ج.م / كجم</span>
+        <button class="button">أضف للسلة</button>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/700x400.png?text=زبدة+بقري" alt="زبدة بلدي بقري">
+      <h2>زبدة بلدي بقري</h2>
+      <p>مصنوعة من اللبن البقري الطبيعي 100%، طعم غني ومميز، بدون مواد حافظة.</p>
+      <div class="price-cart">
+        <span class="price">230 ج.م / كجم</span>
+        <button class="button">أضف للسلة</button>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/700x400.png?text=سمنة+جاموسي" alt="سمنة بلدي جاموسي">
+      <h2>سمنة بلدي جاموسي</h2>
+      <p>سمنة طبيعية ناتجة من زبدة جاموسي خالصة. مثالية للطبخ والحلويات.</p>
+      <div class="price-cart">
+        <span class="price">260 ج.م / كجم</span>
+        <button class="button">أضف للسلة</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>لطلب المنتجات عبر واتساب:</p>
+    <a class="whatsapp" href="https://wa.me/201011241642" target="_blank">تواصل معنا الآن</a>
+    <p style="margin-top: 15px; font-size: 14px;">© 2025 جميع الحقوق محفوظة - الريفي</p>
+  </footer>
+
+</body>
+</html>
